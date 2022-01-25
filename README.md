@@ -31,7 +31,7 @@ request.on('end', () => {
 node http-server.js
 ```
 ```bash
-curl -X POST -H "Content-Type:x-www-form-urlencoded" -d "age=33"  "http://localhost:8080/user?name=laoyang"
+curl -X POST -H "Content-Type:application/x-www-form-urlencoded" -d "age=33"  "http://localhost:8080/user?name=laoyang"
 ```
 服务器控制台返回
 ```text
